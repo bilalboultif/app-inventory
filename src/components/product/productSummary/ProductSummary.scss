@@ -1,0 +1,63 @@
+.product-summary {
+  width: 100%;
+  .info-summary {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.card {
+  border: 1px solid #ccc;
+  //border-bottom: 3px solid var(--light-blue);
+  padding: 5px;
+  background-color: #f5f6fa;
+  border-radius: 10px;
+
+    
+
+}
+
+.card1 {
+  background-color: #b624ff;
+
+  border-radius: 50px;
+
+}
+.card2 {
+  background-color: #32963d;
+  border-radius: 50px;
+}
+.card3 {
+  background-color: #c41849;
+  border-radius: 50px;
+}
+.card4 {
+  background-color: #03a5fc;
+  border-radius: 50px;
+}
+/* Adjust the table size */
+table {
+  width: 100%; /* Set the table width to 100% of its container */
+  border-collapse: collapse; /* Merge cell borders */
+}
+
+/* Adjust table header cells */
+th {
+  padding: 10px; /* Add padding for readability */
+  text-align: left; /* Align text to the left in header cells */
+  background-color: #f0f0f0; /* Add a background color */
+  border-bottom: 2px solid #ccc; /* Add a bottom border */
+}
+
+/* Adjust table data cells */
+td {
+  padding: 10px; /* Add padding for readability */
+  border-bottom: 1px solid #ccc; /* Add a bottom border */
+}
+
+/* Increase font size for better readability */
+table,
+th,
+td {
+  font-size: 14px; /* Adjust font size as needed */
+}
